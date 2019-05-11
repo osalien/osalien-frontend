@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# This is my blog（vue+spring boot）——frontend
-=======
 # dbblog-frontend
 
 > 一个前后端分离的博客项目
@@ -31,4 +28,3 @@ npm test
 ```
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
->>>>>>> 我的博客demo
