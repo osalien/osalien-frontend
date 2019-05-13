@@ -5,7 +5,10 @@
     <p class="name">YuanZhao</p>
     <p class="desc">每个不曾起舞的日子都是对生命的一种辜负</p>
     <ul class="social">
-      <li><a href="https://github.com/llldddbbb" target="_blank"><img src="../../assets/icon/GitHub.png" alt=""></a></li>
+      <li><a href="https://github.com/IAmYuanZhao" target="_blank"><img src="../../assets/icon/github.png" alt=""></a></li>
+      <li><a href="https://blog.csdn.net/qq_36940798" target="_blank"><img src="../../assets/icon/csdn.png" alt=""></a></li>
+      <li><a href="https://github.com/IAmYuanZhao" target="_blank"><img src="../../assets/icon/qq.png" alt=""></a></li>
+      <li><a href="https://github.com/IAmYuanZhao" target="_blank"><img src="../../assets/icon/email.png" alt=""></a></li>
     </ul>
     <div class="line"></div>
     <h4>技能值</h4>
@@ -88,13 +91,15 @@ export default {
       font-weight 100
     .social
       text-align center
-      padding 0 20px
+      padding 0 60px
       margin-top 15px
+      height 60px
       > li
+        float left
         padding 8px
         a
           display block
-          width: 44px
+          width: 36px
           height: 44px
           margin: auto
           img
