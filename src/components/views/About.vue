@@ -7,8 +7,8 @@
     <ul class="social">
       <li><a href="https://github.com/IAmYuanZhao" target="_blank"><img src="../../assets/icon/github.png" alt=""></a></li>
       <li><a href="https://blog.csdn.net/qq_36940798" target="_blank"><img src="../../assets/icon/csdn.png" alt=""></a></li>
-      <li><a href="https://github.com/IAmYuanZhao" target="_blank"><img src="../../assets/icon/qq.png" alt=""></a></li>
-      <li><a href="https://github.com/IAmYuanZhao" target="_blank"><img src="../../assets/icon/email.png" alt=""></a></li>
+      <li><a href="tencent://message/?uin=1578851175&Site=&Menu=yes" target="_blank"><img src="../../assets/icon/qq.png" alt=""></a></li>
+      <li><a href="http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=yuanzhao.vip@qq.com" target="_blank"><img src="../../assets/icon/email.png" alt=""></a></li>
     </ul>
     <div class="line"></div>
     <h4>技能值</h4>
