@@ -3,15 +3,11 @@ import router from '@/router'
 import store from '@/store'
 import 'iview/dist/styles/iview.css'
 import '@/common/stylus/index.styl'
-<<<<<<< HEAD
-import App from './App.vue'
-import httpRequest from '@/utils/httpRequest'
 
-=======
 import Canvas from '@/components/views/Canvas.vue'
 import App from './App.vue'
 import httpRequest from '@/utils/httpRequest'
->>>>>>> canvas
+
 // iView UI 组件引入
 import {
   Row,
@@ -66,11 +62,8 @@ Vue.component('iv-date-picker-cell', DatePickerCell)
 Vue.component('iv-spin', Spin)
 Vue.component('iv-rate', Rate)
 
-<<<<<<< HEAD
-=======
 Vue.component('my-canvas', Canvas)
 
->>>>>>> canvas
 Vue.prototype.$http = httpRequest // Ajax 请求方法
 Vue.prototype.$Modal = Modal
 Vue.prototype.$Message = Message

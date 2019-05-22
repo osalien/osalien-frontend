@@ -9,16 +9,6 @@ function resolve (dir) {
 }
 
 const createLintingRule = () => ({
-<<<<<<< HEAD
-  test: /\.(js|vue)$/,
-  loader: 'eslint-loader',
-  enforce: 'pre',
-  include: [resolve('src'), resolve('test')],
-  options: {
-    formatter: require('eslint-friendly-formatter'),
-    emitWarning: !config.dev.showEslintErrorsInOverlay
-  }
-=======
   // test: /\.(js|vue)$/,
   // loader: 'eslint-loader',
   // enforce: 'pre',
@@ -27,7 +17,6 @@ const createLintingRule = () => ({
   //   formatter: require('eslint-friendly-formatter'),
   //   emitWarning: !config.dev.showEslintErrorsInOverlay
   // }
->>>>>>> canvas
 })
 
 module.exports = {
