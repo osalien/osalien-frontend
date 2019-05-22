@@ -1,5 +1,9 @@
 <template>
   <div id="app">
+<<<<<<< HEAD
+=======
+    <my-canvas></my-canvas>
+>>>>>>> canvas
     <router-view></router-view>
   </div>
 </template>

@@ -11,7 +11,11 @@
 
 <style lang="stylus" rel="stylesheet/stylus">
   .main-wrapper
+<<<<<<< HEAD
     background-color #fff
+=======
+    /*background-color #fff*/
+>>>>>>> canvas
     width 100%
     margin 0 auto
 </style>
