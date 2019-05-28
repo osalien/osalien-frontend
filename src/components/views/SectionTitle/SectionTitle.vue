@@ -40,7 +40,7 @@ export default {
       height 70px
     .title
       .square
-        display inline-block
+        /*display inline-block*/
         height 30px
         width 30px
         background #000000

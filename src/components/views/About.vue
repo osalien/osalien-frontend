@@ -10,7 +10,7 @@
       <li><a href="tencent://message/?uin=1578851175&Site=&Menu=yes" target="_blank"><img src="../../assets/icon/qq.png" alt=""></a></li>
       <li><a href="http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=yuanzhao.vip@qq.com" target="_blank"><img src="../../assets/icon/email.png" alt=""></a></li>
     </ul>
-    <div class="line"></div>
+    <!--<div class="line"></div>
     <h4>技能值</h4>
     <div class="progresses">
       <iv-row :gutter="20">
@@ -45,7 +45,7 @@
           <iv-progress status="active" :hide-info="true" :stroke-width="8" :percent="30" class="bar"></iv-progress>
         </iv-col>
       </iv-row>
-    </div>
+    </div>-->
   </div>
 </template>
 

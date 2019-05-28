@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <my-canvas></my-canvas>
+    <!--<my-canvas></my-canvas>-->
     <router-view></router-view>
   </div>
 </template>

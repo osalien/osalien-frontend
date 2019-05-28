@@ -10,7 +10,7 @@
       <div id="header"  v-show="show">
     <router-link id="logo" to="/">
       <img src="../../../assets/logo.png">
-      <span class="title">KeepDiligent</span>
+      <span class="title title1">KeepDiligent</span>
       <span class="motto"> </span>
     </router-link>
     <ul id="nav">
@@ -124,6 +124,10 @@ export default {
 
 <style lang="stylus" rel="stylesheet/stylus">
   @import "stylus/header.styl";
+  .title1 {
+    /*margin-left: 10px;*/
+    vertical-align: middle;
+  }
    // 添加导航栏显示动画
   .slide-fade-enter-active ,.slide-fade-leave-active {
     transition: all .8s ease;
