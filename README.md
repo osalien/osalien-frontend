@@ -24,7 +24,7 @@ npm install
 npm run start
 ```
 
-## build for production with minification
+## Build for production with minification
 ```sh
 npm run build
 ```
