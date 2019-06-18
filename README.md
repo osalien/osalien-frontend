@@ -1,29 +1,48 @@
-# dbblog-frontend
+<h1 align="center">Welcome to kdblog-frontend 👋</h1>
+<p>
+  <img src="https://img.shields.io/badge/version-2.0.0-blue.svg?cacheSeconds=2592000" />
+  <img src="https://img.shields.io/badge/node-%3E%3D%206.0.0-blue.svg" />
+  <img src="https://img.shields.io/badge/npm-%3E%3D%203.0.0-blue.svg" />
+</p>
 
 > 一个前后端分离的博客项目
 
-## Build Setup
+## Prerequisites
 
-``` bash
-# install dependencies
+- node &gt;= 6.0.0
+- npm &gt;= 3.0.0
+
+## Install
+
+```sh
 npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-
-# run unit tests
-npm run unit
-
-# run e2e tests
-npm run e2e
-
-# run all tests
-npm test
 ```
 
+## Usage
+
+```sh
+npm run start
+```
+
+## Build for production with minification
+```sh
+npm run build
+```
+
+## Run tests
+
+```sh
+npm run test
+```
+
+## Author
+
+👤 **yuanzhao &lt;osalien@qq.com&gt;**
+
+
+## Show your support
+
+Give a ⭐️ if this project helped you!
+
+***
+_❤️ by osalien_

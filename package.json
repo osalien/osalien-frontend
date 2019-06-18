@@ -1,8 +1,8 @@
 {
-  "name": "dbblog-frontend",
-  "version": "1.0.0",
+  "name": "KDBlog-frontend",
+  "version": "2.0.0",
   "description": "一个前后端分离的博客项目",
-  "author": "yuanzhao <yuanzhao.vip@qq.com>",
+  "author": "yuanzhao <osalien@qq.com>",
   "private": true,
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
