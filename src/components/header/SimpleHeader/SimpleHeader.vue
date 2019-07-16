@@ -10,8 +10,10 @@
       <div id="header"  v-show="show">
     <router-link id="logo" to="/">
       <img src="../../../assets/logo.png">
-      <span class="title title1">KeepDiligent</span>
-      <span class="motto"> </span>
+      <span class="title title1">Jacob</span>
+      <span class="motto">
+        <!-- <a href="http://beian.miit.gov.cn/state/outPortal/loginPortal.action">苏ICP备19018172号-2 -->
+      </span>
     </router-link>
     <ul id="nav">
       <li>

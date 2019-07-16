@@ -2,13 +2,13 @@
   <div class="about">
     <img class="background" src="../../assets/background.jpg" alt="">
     <img class="avatar" src="../../assets/avatar.png" alt="">
-    <p class="name">YuanZhao</p>
-    <p class="desc">每个不曾起舞的日子都是对生命的一种辜负</p>
+    <p class="name">Jacob</p>
+    <p class="desc">Speak less , Write more</p>
     <ul class="social">
       <li><a href="https://github.com/osalien" target="_blank"><img src="../../assets/icon/github.png" alt=""></a></li>
       <li><a href="https://blog.csdn.net/qq_36940798" target="_blank"><img src="../../assets/icon/csdn.png" alt=""></a></li>
       <li><a href="tencent://message/?uin=1578851175&Site=&Menu=yes" target="_blank"><img src="../../assets/icon/qq.png" alt=""></a></li>
-      <li><a href="http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=osalien@qq.com" target="_blank"><img src="../../assets/icon/email.png" alt=""></a></li>
+      <li><a href="http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=me@osalien.com" target="_blank"><img src="../../assets/icon/email.png" alt=""></a></li>
     </ul>
     <div class="line"></div>
     <h4>技能值</h4>

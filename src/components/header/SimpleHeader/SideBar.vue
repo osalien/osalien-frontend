@@ -5,8 +5,8 @@
         <div class="top-area">
           <img src="../../../assets/background.jpg" alt="">
           <div class="site-info">
-            <h1 class="site-name">YuanZhao</h1>
-            <h1 class="site-desc">每个不曾起舞的日子都是对生命的一种辜负</h1>
+            <h1 class="site-name">Jacob</h1>
+            <h1 class="site-desc">Speak less , Write more</h1>
           </div>
         </div>
         <div class="sidebar-menus" >
