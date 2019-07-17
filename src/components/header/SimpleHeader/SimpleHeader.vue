@@ -10,9 +10,9 @@
       <div id="header"  v-show="show">
     <router-link id="logo" to="/">
       <img src="../../../assets/logo.png">
-      <span class="title title1">Jacob</span>
+      <span class="title title1 web-font">OSALIEN</span>
       <span class="motto">
-        <!-- <a href="http://beian.miit.gov.cn/state/outPortal/loginPortal.action">苏ICP备19018172号-2 -->
+        
       </span>
     </router-link>
     <ul id="nav">
@@ -128,6 +128,7 @@ export default {
   @import "stylus/header.styl";
   .title1 {
     /*margin-left: 10px;*/
+    font-size: 108%;
     vertical-align: middle;
   }
    // 添加导航栏显示动画

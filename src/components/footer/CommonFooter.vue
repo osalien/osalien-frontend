@@ -1,7 +1,14 @@
 <template>
   <div class="common-footer">
     <p class="copyright">
-      <a href="http://beian.miit.gov.cn" target="_blank">{{ siteInfo.icp }}</a>
+      <img src="../../assets/gaicp.png" height="12px">&nbsp;
+      <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=32011802010105" target="_blank">
+        {{ siteInfo.gaicp }}
+      </a>
+      <span>|</span>
+      <a href="http://beian.miit.gov.cn" target="_blank">
+        {{ siteInfo.icp }}
+      </a>
       <span>|</span>
       {{ siteInfo.copyright }}
       <span>|</span>
@@ -17,6 +24,7 @@ export default {
     return {
       siteInfo: {
         icp: '苏ICP备19018172号-3',
+        gaicp: '苏公网安备 32011802010105号',
         copyright: '版权所有 © 2019',
         copyright_desc: '0 天 0 时 0 分 0 秒'
       }

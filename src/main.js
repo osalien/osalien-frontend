@@ -3,6 +3,7 @@ import router from '@/router'
 import store from '@/store'
 import 'iview/dist/styles/iview.css'
 import '@/common/stylus/index.styl'
+import "@/common/stylus/iconfont.css"
 
 import Canvas from '@/components/views/Canvas.vue'
 import App from './App.vue'
@@ -62,7 +63,7 @@ Vue.component('iv-date-picker-cell', DatePickerCell)
 Vue.component('iv-spin', Spin)
 Vue.component('iv-rate', Rate)
 
-Vue.component('my-canvas', Canvas)
+// Vue.component('my-canvas', Canvas)
 
 Vue.prototype.$http = httpRequest // Ajax 请求方法
 Vue.prototype.$Modal = Modal

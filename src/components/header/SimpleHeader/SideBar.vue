@@ -3,10 +3,10 @@
     <div class="main-area">
       <div class="top-wrapper" @touchmove.stop>
         <div class="top-area">
-          <img src="../../../assets/background.jpg" alt="">
+          <img src="../../../assets/background.gif" alt="">
           <div class="site-info">
-            <h1 class="site-name">Jacob</h1>
-            <h1 class="site-desc">Speak less , Write more</h1>
+            <h1 class="site-name jacob-font">Jacob</h1>
+            <h1 class="site-desc">Speak less   Write more</h1>
           </div>
         </div>
         <div class="sidebar-menus" >

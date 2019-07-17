@@ -63,8 +63,9 @@ export default {
           &:hover
             transform: translate(30px, 0)
             transition: all 0.2s ease-in-out
-            .link
-              color $dark
+            color $dark
+            // .link
+            //   color $dark
           img
             flex 0 0 50px
             width 50px

@@ -1,51 +1,15 @@
 <template>
   <div class="about">
-    <img class="background" src="../../assets/background.jpg" alt="">
+    <img class="background" src="../../assets/background.gif" alt="">
     <img class="avatar" src="../../assets/avatar.png" alt="">
-    <p class="name">Jacob</p>
-    <p class="desc">Speak less , Write more</p>
+    <p class="name jacob-font">Jacob</p>
+    <p class="desc">Speak less   Write more</p>
     <ul class="social">
       <li><a href="https://github.com/osalien" target="_blank"><img src="../../assets/icon/github.png" alt=""></a></li>
       <li><a href="https://blog.csdn.net/qq_36940798" target="_blank"><img src="../../assets/icon/csdn.png" alt=""></a></li>
       <li><a href="tencent://message/?uin=1578851175&Site=&Menu=yes" target="_blank"><img src="../../assets/icon/qq.png" alt=""></a></li>
       <li><a href="http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=me@osalien.com" target="_blank"><img src="../../assets/icon/email.png" alt=""></a></li>
     </ul>
-    <div class="line"></div>
-    <h4>技能值</h4>
-    <div class="progresses">
-      <iv-row :gutter="20">
-        <iv-col :span="6">
-          <p class="title">Java</p>
-        </iv-col>
-        <iv-col :span="18">
-          <iv-progress status="normal" :hide-info="true" :stroke-width="8" :percent="60" class="bar"></iv-progress>
-        </iv-col>
-      </iv-row>
-      <iv-row :gutter="20">
-        <iv-col :span="6">
-          <p class="title">Node</p>
-        </iv-col>
-        <iv-col :span="18">
-          <iv-progress status="wrong" :hide-info="true" :stroke-width="8" :percent="40" class="bar"></iv-progress>
-        </iv-col>
-      </iv-row>
-      <iv-row :gutter="20">
-        <iv-col :span="6">
-          <p class="title">JavaScript</p>
-        </iv-col>
-        <iv-col :span="18">
-          <iv-progress status="success" :hide-info="true" :stroke-width="8" :percent="40" class="bar"></iv-progress>
-        </iv-col>
-      </iv-row>
-      <iv-row :gutter="20">
-        <iv-col :span="6">
-          <p class="title">Python</p>
-        </iv-col>
-        <iv-col :span="18">
-          <iv-progress status="active" :hide-info="true" :stroke-width="8" :percent="30" class="bar"></iv-progress>
-        </iv-col>
-      </iv-row>
-    </div>
   </div>
 </template>
 
@@ -73,14 +37,14 @@ export default {
       z-index 1
     img.avatar
       position relative
-      margin 75px auto 15px
+      margin 6px auto 15px
       width 100px
       height 100px
       border 5px solid $color-gradually-gray-91
       border-radius 50%
       z-index 9
     .name
-      font-size 22px
+      font-size 30px
       color $color-typegraphy-title
       line-height 30px
       font-weight 700

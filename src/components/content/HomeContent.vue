@@ -22,8 +22,8 @@
           <about></about>
           <recommend></recommend>
           <hot-read></hot-read>
-          <friend-links style="margin-top:15px;"></friend-links>
-          <tag-wall style="margin-top: 15px;"></tag-wall>
+          <friend-links></friend-links>
+          <tag-wall></tag-wall>
         </div>
       </iv-col>
     </iv-row>
