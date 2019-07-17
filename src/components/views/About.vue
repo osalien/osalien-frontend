@@ -5,10 +5,13 @@
     <p class="name jacob-font">Jacob</p>
     <p class="desc">Speak less   Write more</p>
     <ul class="social">
-      <li><a href="https://github.com/osalien" target="_blank"><img src="../../assets/icon/github.png" alt=""></a></li>
-      <li><a href="https://blog.csdn.net/qq_36940798" target="_blank"><img src="../../assets/icon/csdn.png" alt=""></a></li>
-      <li><a href="tencent://message/?uin=1578851175&Site=&Menu=yes" target="_blank"><img src="../../assets/icon/qq.png" alt=""></a></li>
-      <li><a href="http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=me@osalien.com" target="_blank"><img src="../../assets/icon/email.png" alt=""></a></li>
+      <li><a href="https://github.com/osalien" target="_blank"><img src="../../assets/icon/github.png" alt="Github"></a></li>
+      <li><a href="https://stackoverflow.com/users/10779904/osalien" target="_blank"><img src="../../assets/icon/stackoverflow.png" alt="stackoverflow"></a></li>
+      <li><a href="https://my.oschina.net/osalien?tab=newest&catalogId=0" target="_blank"><img src="../../assets/icon/oschina.png" alt="oschina"></a></li>
+      <!-- <li><a href="https://juejin.im/user/5d090124e51d4577781173a1" target="_blank"><img src="../../assets/icon/segmentfault.png" alt=""></a></li> -->
+      <li><a href="https://blog.csdn.net/qq_36940798" target="_blank"><img src="../../assets/icon/csdn.png" alt="csdn"></a></li>
+      <!-- <li><a href="tencent://message/?uin=1578851175&Site=&Menu=yes" target="_blank"><img src="../../assets/icon/qq.png" alt=""></a></li> -->
+      <li><a href="http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=me@osalien.com" target="_blank"><img src="../../assets/icon/email.png" alt="email"></a></li>
     </ul>
   </div>
 </template>
@@ -40,7 +43,7 @@ export default {
       margin 6px auto 15px
       width 100px
       height 100px
-      border 5px solid $color-gradually-gray-91
+      border 4px solid $color-gradually-gray-91
       border-radius 50%
       z-index 9
     .name
@@ -55,7 +58,7 @@ export default {
       font-weight 100
     .social
       text-align center
-      padding 0 60px
+      padding 0 34px
       margin-top 15px
       height 60px
       > li
