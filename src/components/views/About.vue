@@ -1,9 +1,9 @@
 <template>
   <div class="about">
     <img class="background" src="../../assets/background.gif" alt="">
-    <img class="avatar" src="../../assets/avatar.png" alt="">
+    <!-- <img class="avatar" src="../../assets/avatar.png" alt=""> -->
     <p class="name jacob-font">Jacob</p>
-    <p class="desc">Speak less   Write more</p>
+    <p class="desc">Speak less  Write more</p>
     <ul class="social">
       <li><a href="https://github.com/osalien" target="_blank"><img src="../../assets/icon/github.png" alt="Github"></a></li>
       <li><a href="https://stackoverflow.com/users/10779904/osalien" target="_blank"><img src="../../assets/icon/stackoverflow.png" alt="stackoverflow"></a></li>
@@ -29,10 +29,10 @@ export default {
     position relative
     text-align center
     border 1px solid $color-border
-    padding-bottom 20px
+    padding-bottom 11px
     img.background
       position absolute
-      top 0
+      top 50px
       left 0
       right 0
       width 100%
@@ -51,6 +51,7 @@ export default {
       color $color-typegraphy-title
       line-height 30px
       font-weight 700
+      margin-top: 36px
     .desc
       font-size 15px
       color $color-secondary-info
@@ -59,7 +60,7 @@ export default {
     .social
       text-align center
       padding 0 34px
-      margin-top 15px
+      margin-top 84px
       height 60px
       > li
         float left

@@ -5,7 +5,7 @@ import 'iview/dist/styles/iview.css'
 import '@/common/stylus/index.styl'
 import "@/common/stylus/iconfont.css"
 
-import Canvas from '@/components/views/Canvas.vue'
+// import Canvas from '@/components/views/Canvas.vue'
 import App from './App.vue'
 import httpRequest from '@/utils/httpRequest'
 
