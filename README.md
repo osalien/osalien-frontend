@@ -37,13 +37,11 @@ npm run test
 
 ## Author
 
-👤 **yuanzhao &lt;osalien@qq.com&gt;**
+👤 **yuanzhao &lt;me@osalien.com&gt;**
 
 
 ## Show your support
 
 Give a ⭐️ if this project helped you!
 
-***
-_❤️ by osalien_
-***
+*** _❤️ by osalien_ ***
