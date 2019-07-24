@@ -4,14 +4,18 @@
       <iv-col :xs="24" :sm="24" :md="24" :lg="17">
         <div class="layout-left">
           <timeline-header></timeline-header>
-          <div v-for="year in timelineList" :key="year.year" v-if="year.months.length > 0">
-            <archive-list-time-title :date="year.year" :count="year.count"></archive-list-time-title>
-            <div v-for="month in year.months" :key="month.month" v-if="month.posts.length > 0">
-              <archive-list-time-title :date="month.month + '月'" :count="month.count" :dateType="'month'"></archive-list-time-title>
-              <archive-list-cell v-for="post in month.posts" :post="post"
-                                 :key="post.title"></archive-list-cell>
+          <template v-for="year in timelineList">
+            <div :key="year.year" v-if="year.months.length > 0">
+              <archive-list-time-title :date="year.year" :count="year.count"></archive-list-time-title>
+              <template v-for="month in year.months">
+                <div :key="month.month" v-if="month.posts.length > 0">
+                  <archive-list-time-title :date="month.month + '月'" :count="month.count" :dateType="'month'"></archive-list-time-title>
+                  <archive-list-cell v-for="post in month.posts" :post="post"
+                                    :key="post.title"></archive-list-cell>
+                </div>
+              </template>
             </div>
-          </div>
+          </template>
         </div>
       </iv-col>
       <iv-col :xs="0" :sm="0" :md="0" :lg="7">
@@ -58,9 +62,9 @@ export default {
           this.timelineList = data.timelineList
         }
       })
-    },
-    selectCategory (categoryId) {
-      this.page = 0
+    // },
+    // selectCategory (categoryId) {
+    //   this.page = 0
     }
   }
 }
@@ -70,11 +74,11 @@ export default {
   .timeline-content
     width auto
     @media only screen and (max-width: 768px)
-      margin 5px 5px 0 5px
+      margin 5px 5px 10px 5px
     @media screen and (min-width: 768px)
-      margin 10px 10px 0 10px
+      margin 10px 10px 20px 10px
     @media screen and (min-width: 992px)
-      margin 15px 35px 0 35px
+      margin 15px 35px 50px 35px
     @media screen and (min-width: 1200px)
       width 1200px
       margin 15px auto 0

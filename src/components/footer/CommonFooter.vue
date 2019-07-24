@@ -74,8 +74,8 @@ export default {
 <style lang="stylus" rel="stylesheet/stylus">
   @import "../../common/stylus/theme.styl"
   .common-footer
-    padding 15px 5px
-    margin-top 50px
+    font-weight 300
+    line-height 25px
     text-align center
     background $default-background-color
     border-top 1px solid $default-border-color

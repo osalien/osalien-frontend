@@ -1,7 +1,7 @@
 <template>
   <div class="article-page-footer">
     <license-tag></license-tag>
-    <social-section :likeNum="likeNum" :commentList="commentList"></social-section>
+    <social-section></social-section>
   </div>
 </template>
 
@@ -18,10 +18,6 @@ export default {
   components: {
     'license-tag': LicenseTag,
     'social-section': SocialSection
-  },
-  props: {
-    likeNum: {},
-    commentList: Array
   }
 }
 </script>
@@ -31,7 +27,7 @@ export default {
 
   .article-page-footer
     text-align left
-    height 200px
+    // height 200px
     .operate_menu
       margin-top 30px
     .comment-menu
