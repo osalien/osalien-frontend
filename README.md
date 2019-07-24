@@ -45,8 +45,5 @@ npm run test
 Give a ⭐️ if this project helped you!
 
 ***
-<<<<<<< HEAD
 _❤️ by osalien_
-=======
-_❤️ by osalien_
->>>>>>> 344689572e8cac92864e555e00f280cb2ff259d1
+***
