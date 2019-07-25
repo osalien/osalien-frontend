@@ -16,7 +16,7 @@
         <p class="info"><span class="publish-time">At time / <a >{{article.publish_time}}</a></span></p>
         <p class="operate_info">
           <span class="readings"><a> {{article.readings}}次阅读</a></span> |
-          <span class="comments"><a> {{article.comments}}个评论</a></span> |
+          <!-- <span class="comments"><a> {{article.comments}}个评论</a></span> | -->
           <span class="likes"><a> {{article.likes}}个喜欢</a></span></p>
       </div>
     </a>

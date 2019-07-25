@@ -10,9 +10,9 @@
             </div>
             <p class="info">
               <span class="time">{{topHotRead.createTime | socialDate }}</span>
-              <span class="likes"><a ><iv-icon type="heart"></iv-icon> {{hotRead.likeNum}} </a></span>
-                <span class="comments"><a ><iv-icon type="compose"></iv-icon> {{hotRead.commentNum}} </a></span>
-                <span class="readings"><a ><iv-icon type="eye"></iv-icon> {{hotRead.readNum}} </a></span>
+              <span class="likes"><a ><iv-icon type="heart"></iv-icon> {{topHotRead.likeNum}} </a></span>
+              <!-- <span class="comments"><a><iv-icon type="compose"></iv-icon> {{topHotRead.commentNum}} </a></span> -->
+              <span class="readings"><a><iv-icon type="eye"></iv-icon> {{topHotRead.readNum}} </a></span>
             </p>
             <!--<div class="img">-->
               <!--<img :src="topHotRead.cover" alt="">-->
@@ -27,7 +27,7 @@
               <p class="info">
                 <span class="time">{{hotRead.createTime | socialDate }}</span>
                 <span class="likes"><a ><iv-icon type="heart"></iv-icon> {{hotRead.likeNum}} </a></span>
-                <span class="comments"><a ><iv-icon type="compose"></iv-icon> {{hotRead.commentNum}} </a></span>
+                <!-- <span class="comments"><a ><iv-icon type="compose"></iv-icon> {{hotRead.commentNum}} </a></span> -->
                 <span class="readings"><a ><iv-icon type="eye"></iv-icon> {{hotRead.readNum}} </a></span>
               </p>
             </a>
@@ -41,7 +41,6 @@
 <script type="text/ecmascript-6">
 import {mixin} from '@/utils/index'
 import Panel from '@/components/utils/Panel'
-
 export default {
   data () {
     return {
@@ -75,7 +74,6 @@ export default {
 
 <style lang="stylus" rel="stylesheet/stylus">
   @import "../../common/stylus/index.styl";
-
   .hotRead
     .content
       padding 5px 20px
@@ -138,5 +136,4 @@ export default {
         margin-top 10px
         padding-top 10px
         border-top 1px solid $color-border
-
 </style>

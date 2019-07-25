@@ -11,7 +11,7 @@
             <p class="info">
               <span class="time">{{topRecommend.createTime | socialDate }}</span>
               <span class="likes"><a><iv-icon type="heart"></iv-icon> {{topRecommend.likeNum}} </a></span>
-              <span class="comments"><a><iv-icon type="compose"></iv-icon> {{topRecommend.commentNum}} </a></span>
+              <!-- <span class="comments"><a><iv-icon type="compose"></iv-icon> {{topRecommend.commentNum}} </a></span> -->
               <span class="readings"><a><iv-icon type="eye"></iv-icon> {{topRecommend.readNum}} </a></span>
             </p>
             <!--<div class="img">-->
@@ -27,7 +27,7 @@
               <p class="info">
                 <span class="time">{{recommend.createTime | socialDate }}</span>
                 <span class="likes"><a ><iv-icon type="heart"></iv-icon> {{recommend.likeNum}} </a></span>
-                <span class="comments"><a ><iv-icon type="compose"></iv-icon> {{recommend.commentNum}} </a></span>
+                <!-- <span class="comments"><a ><iv-icon type="compose"></iv-icon> {{recommend.commentNum}} </a></span> -->
                 <span class="readings"><a ><iv-icon type="eye"></iv-icon> {{recommend.readNum}} </a></span>
               </p>
             </a>
