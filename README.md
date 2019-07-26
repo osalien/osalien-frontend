@@ -1,4 +1,4 @@
-<h1 align="center">Welcome to KDBlog-frontend 👋</h1>
+<h1 align="center">Welcome to osalien-frontend 👋</h1>
 <p>
   <img src="https://img.shields.io/badge/version-2.0.0-blue.svg?cacheSeconds=2592000" />
   <img src="https://img.shields.io/badge/node-%3E%3D%206.0.0-blue.svg" />
@@ -44,4 +44,4 @@ npm run test
 
 Give a ⭐️ if this project helped you!
 
-*** _❤️ by osalien_ ***
+_❤️ by osalien_ 
