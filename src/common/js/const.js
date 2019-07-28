@@ -29,11 +29,11 @@ export const DefaultFilterList = [
     type: 'favorite',
     active: false
   },
-  {
-    name: '评论最多',
-    type: 'commentMost',
-    active: false
-  },
+  // {
+  //   name: '评论最多',
+  //   type: 'commentMost',
+  //   active: false
+  // },
   {
     name: '推荐',
     type: 'recommend',
