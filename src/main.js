@@ -21,7 +21,8 @@ import {
   Rate,
   Modal,
   Message,
-  Notice
+  Notice,
+  BackTop
 } from 'iview'
 
 Vue.component('iv-row', Row)
@@ -32,6 +33,8 @@ Vue.component('iv-tag', Tag)
 Vue.component('iv-icon', Icon)
 Vue.component('iv-affix', Affix)
 Vue.component('iv-rate', Rate)
+Vue.component('iv-backtop', BackTop)
+
 
 // Vue.component('my-canvas', Canvas)
 

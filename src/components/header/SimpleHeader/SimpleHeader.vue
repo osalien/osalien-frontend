@@ -74,6 +74,7 @@ export default {
     }
     // 滚动滑轮触发scrollFunc方法  //ie 谷歌
     window.onmousewheel = document.onmousewheel = this.watchScroll
+    window.addEventListener('scroll', this.scrollToTop)
   },
   methods: {
     initMobileMenu () {
@@ -101,6 +102,12 @@ export default {
         }
       }
     },
+    scrollToTop () {
+      let scrollTop = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop
+      if (scrollTop === 0  && this.show === false) {
+        this.show = true
+      }
+    },
     listCategory () {
       this.$http({
         url: this.$http.adornUrl('/operation/categories'),
@@ -120,6 +127,10 @@ export default {
         }
       })
     }
+  },
+  destroyed () {
+    debugger
+    window.removeEventListener('scroll', this.scrollToTop); 
   }
 }
 </script>
