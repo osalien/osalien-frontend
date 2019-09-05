@@ -18,6 +18,16 @@
   url('../fonts/alifont/jacobfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
   url('../fonts/alifont/jacobfont.svg#webfont') format('svg'); /* iOS 4.1- */
 }
+@font-face {
+  font-family: 'kollerfont';
+  font-display: swap;
+  src: url('../fonts/alifont/kollerfont.eot'); /* IE9 */
+  src: url('../fonts/alifont/kollerfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('../fonts/alifont/kollerfont.woff2') format('woff2'),
+  url('../fonts/alifont/kollerfont.woff') format('woff'), /* chrome、firefox */
+  url('../fonts/alifont/kollerfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url('../fonts/alifont/kollerfont.svg#webfont') format('svg'); /* iOS 4.1- */
+}
 .web-font {
   font-family: "webfont" !important;
   font-style: normal;
@@ -26,6 +36,12 @@
 }
 .jacob-font {
   font-family: "jacobfont" !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.koller-font {
+  font-family: "kollerfont" !important;
   font-style: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

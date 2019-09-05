@@ -5,7 +5,7 @@
         <div class="top-area">
           <img src="../../../assets/background.jpg" alt="">
           <div class="site-info">
-            <h1 class="site-name jacob-font">Jacob</h1>
+            <h1 class="site-name koller-font">Koller</h1>
             <h1 class="site-desc">Speak less   Write more</h1>
           </div>
         </div>

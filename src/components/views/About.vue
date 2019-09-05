@@ -2,7 +2,7 @@
   <div class="about">
     <img class="background" src="../../assets/background.gif" alt="">
     <!-- <img class="avatar" src="../../assets/avatar.png" alt=""> -->
-    <p class="name jacob-font">Jacob</p>
+    <p class="name koller-font">Koller</p>
     <p class="desc">Speak less  Write more</p>
     <ul class="social">
       <li><a href="https://github.com/osalien" target="_blank"><img src="../../assets/icon/github.png" alt="Github"></a></li>
@@ -47,7 +47,7 @@ export default {
       border-radius 50%
       z-index 9
     .name
-      font-size 30px
+      font-size 36px
       color $color-typegraphy-title
       line-height 30px
       font-weight 700
