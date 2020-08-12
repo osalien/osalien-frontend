@@ -8,26 +8,25 @@
 
 export default {
   name: 'Valine',
-  mounted: function(){
-    // require window 
+  mounted: function () {
+    // require window
     if (typeof window !== 'undefined') {
       this.window = window
       window.AV = require('leancloud-storage')
-      
     }
-    const Valine = require('valine');
+    const Valine = require('valine')// eslint-disable-next-line no-new
     new Valine({
-      el: '#valine' ,
+      el: '#valine',
       appId: 'bXcmAj9ejPwtEqxByqIDK9a4-gzGzoHsz',
       appKey: 'sT0KwPd9Y991UsJ1MqNnmwuz',
-      notify: false, // 邮件提醒!!! 
-      verify: false, 
-      avatar:'robohash', 
+      notify: false, // 邮件提醒!!!
+      verify: false,
+      avatar: 'robohash',
       pageSize: 10,
       visitor: true,
       recordIP: true,
-      placeholder: 'Just Go Go .' 
-    });
+      placeholder: 'Just Go Go .'
+    })
   }
 }
 </script>
@@ -41,7 +40,5 @@ export default {
   .v >>> .vlist .vcard .vh .vmeta .vat
     color: rgba(0, 0, 0, 0.7);
   .v >>> .info
-      display: none
+    display: none
 </style>
-
-

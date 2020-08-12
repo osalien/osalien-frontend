@@ -57,9 +57,12 @@ export default {
       line-height 18px
       text-align left
     .list
+      max-height 463px !important;
+      overflow-y auto;
       position relative
       padding 0 25px 15px
       margin-top 10px
+      margin-bottom 36px
       .active-indicator
         position absolute
         left -1px

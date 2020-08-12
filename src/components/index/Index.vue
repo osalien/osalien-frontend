@@ -3,7 +3,7 @@
     <router-view name="header"></router-view>
     <router-view name="content"></router-view>
     <router-view name="footer"></router-view>
-    <iv-backtop></iv-backtop>
+    <iv-backtop style="bottom: 54px"></iv-backtop>
   </div>
 </template>
 

@@ -1,8 +1,8 @@
 {
-  "name": "kdblog-frontend",
-  "version": "2.0.0",
+  "name": "osalien-frontend",
+  "version": "3.0.0",
   "description": "一个前后端分离的博客项目",
-  "author": "yuanzhao <osalien@qq.com>",
+  "author": "yuanzhao <me@osalien.com>",
   "private": true,
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
@@ -21,7 +21,7 @@
     "leancloud-storage": "^3.14.1",
     "stylus": "^0.54.5",
     "stylus-loader": "^3.0.1",
-    "valine": "^1.3.9",
+    "valine": "1.3.9",
     "vue": "^2.5.2",
     "vue-nav-tabs": "^0.5.6",
     "vue-router": "^3.0.7",

@@ -25,18 +25,20 @@ export default {
       siteInfo: {
         icp: '苏ICP备19018172号-3',
         gaicp: '苏公网安备 32011802010105号',
-        copyright: '版权所有 © 2019',
+        copyright: '版权所有 © 2018 - 2020',
         copyright_desc: '0 天 0 时 0 分 0 秒'
       }
     }
   },
   methods: {
     setTime () {
-      let create_time = Math.round(new Date(Date.UTC(2018,12,1,0,0,0)).getTime() / 1000);
-      let timestamp = Math.round((new Date().getTime() + 8 * 60 * 60 * 1000) / 1000);
-      let currentTime = this.secondToDate((timestamp - create_time));
-      let currentTimeHtml = currentTime[0] + ' 天 '+ currentTime[1] + ' 时 ' + currentTime[2] + ' 分 ' + currentTime[3]+ ' 秒';
-      this.siteInfo.copyright_desc = currentTimeHtml;
+      this.siteInfo.copyright = '版权所有 © 2018 - ' + new Date().getFullYear() ;
+      let create_time = Math.round(new Date(Date.UTC(2018,12,1,0,0,0)).getTime() / 1000) ;
+      let timestamp = Math.round((new Date().getTime() + 8 * 60 * 60 * 1000) / 1000) ;
+        // eslint-disable-next-line camelcase
+      let currentTime = this.secondToDate((timestamp - create_time)) ;
+      let currentTimeHtml = currentTime[0] + ' 天 ' + currentTime[1] + ' 时 ' + currentTime[2] + ' 分 ' + currentTime[3] + ' 秒' ;
+      this.siteInfo.copyright_desc = currentTimeHtml ;
     },
     secondToDate (second) {
       if (!second) {
