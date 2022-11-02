@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "axios": "0.17.1",
-    "highlight.js": "^9.15.8",
+    "highlight.js": "^10.4.1",
     "iview": "^2.14.2",
     "leancloud-storage": "^3.14.1",
     "stylus": "^0.54.5",
