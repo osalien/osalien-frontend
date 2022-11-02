@@ -5,8 +5,8 @@
         <div class="top-area">
           <img src="../../../assets/background.jpg" alt="">
           <div class="site-info">
-            <h1 class="site-name jacob-font">Jacob</h1>
-            <h1 class="site-desc">Speak less   Write more</h1>
+            <h1 class="site-name ehsan-font">EhsanZhao</h1>
+            <h1 class="site-desc">say less and do more</h1>
           </div>
         </div>
         <div class="sidebar-menus" >
